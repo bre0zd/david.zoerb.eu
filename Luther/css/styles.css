@@ -3407,17 +3407,9 @@ img.u-pull-left {
     align-items : center;
 }
 
-/*.about-info__pic {
- *   object-fit     : cover;
- *   margin         : 0;
- *   vertical-align : bottom;}*/
-
 .about-info__pic {
-    width: var(--vspace-5);
-    height: var(--vspace-5);
-    border: 1.6rem solid rgba(255, 255, 255, 0.02);
-    border-radius: 10%;
-    margin: 0;
+    object-fit     : cover;
+    margin         : 0;
     vertical-align : bottom;
 }
 
