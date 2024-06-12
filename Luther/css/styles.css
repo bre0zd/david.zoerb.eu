@@ -3416,7 +3416,9 @@ img.u-pull-left {
     width: var(--vspace-5);
     height: var(--vspace-5);
     border: 1.6rem solid rgba(255, 255, 255, 0.02);
-    border-radius: 50%;
+    border-radius: 10%;
+    margin: 0;
+    vertical-align : bottom;
 }
 
 .about-info__text {
