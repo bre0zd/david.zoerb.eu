@@ -80,7 +80,8 @@
 :root {
 
     --font-1 : "Public Sans", sans-serif;
-    --font-2 : "DM Serif Display", serif;
+    --font-2 : "Public Sans", sans-serif;
+    /*--font-2 : "DM Serif Display", serif;*/
 
     /* monospace
     */
