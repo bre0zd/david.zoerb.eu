@@ -4556,9 +4556,7 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-footer__social li {
-    position: absolute;
-    text-align: right;
-    padding-left: 0;
+    padding-left: 100;
     margin-right: 1.6rem;
 }
 
