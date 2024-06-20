@@ -4543,6 +4543,7 @@ input[type="button"].btn--primary:focus {
     flex-flow: row wrap;
     margin: 0 0 0 .4rem;
     position: relative;
+    text-align: right;
     top: -6%;
 }
 
