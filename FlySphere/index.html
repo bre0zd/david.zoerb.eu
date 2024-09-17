@@ -1,110 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>FlySphere - Ultimate Flying Experience</title>
-  <style>
-    /* Global Styles */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-    }
-    
-    /* Header Styles */
-    .header {
-      background-color: #2196F3; /* Blue */
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    
-    .header .logo {
-      font-size: 24px;
-      font-weight: bold;
-      margin: 0;
-    }
-    
-    /* Navigation Styles */
-    .nav {
-      background-color: #2196F3; /* Blue */
-      padding: 10px;
-      text-align: center;
-    }
-    
-    .nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: space-between;
-    }
-    
-    .nav li {
-      margin-right: 20px;
-    }
-    
-    .nav a {
-      color: #fff;
-      text-decoration: none;
-      transition: color 0.2s ease;
-    }
-    
-    .nav a:hover {
-      color: #F7DC6F; /* Yellow */
-    }
-    
-    /* Container Styles */
-    .container {
-      max-width: 1200px;
-      margin: 40px auto;
-      padding: 20px;
-      background-color: #fff;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-  </style>
+  <title>FlySphere - Low Fares, Made Simple</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header">
-    <h1 class="logo">FlySphere</h1>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Flights</a></li>
+        <li><a href="#">Hotels</a></li>
+        <li><a href="#">Car Hire</a></li>
+        <li><a href="#">Travel Insurance</a></li>
+      </ul>
+    </nav>
   </header>
-  <nav class="nav">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-  <div class="container">
-    <main class="main">
-      <section class="hero">
-        <h2>Welcome to FlySphere</h2>
-        <p>Immerse yourself in a realistic aviation environment, where you can visit a real airport, watch the ground
-          crew at work, and check in to your flight. Then, take to the skies and enjoy a comprehensive flight experience
-          like no other.</p>
-        <p>Whether you're a seasoned pilot or just starting out, FlySphere offers an unparalleled level of realism and
-          excitement, making it the perfect destination for anyone who loves flying.</p>
-        <button class="cta">Book Now</button>
-      </section>
-      <section class="features">
-        <h2>Our Features</h2>
-        <ul>
-          <li>
-            <h3>Realistic Airport Experience</h3>
-            <p>Visit a real airport and experience the sights and sounds of a bustling terminal. Watch the ground crew
-              at work, and check in to your flight.</p>
-          </li>
-          <li>
-            <h3>Comprehensive Flight Experience</h3>
-            <p>Take to the skies and enjoy a comprehensive flight experience that includes takeoff, cruising, and
-              landing. Our game is designed to provide you with the most realistic and immersive flight experience
-              possible.</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-  </div>
+  <main>
+    <section class="hero">
+      <h1>Welcome to FlySphere</h1>
+      <p>Low fares, made simple</p>
+      <button>Book Now</button>
+    </section>
+    <section class="search">
+      <form>
+        <label for="origin">From:</label>
+        <input type="text" id="origin" name="origin">
+        <label for="destination">To:</label>
+        <input type="text" id="destination" name="destination">
+        <label for="departure-date">Departure Date:</label>
+        <input type="date" id="departure-date" name="departure-date">
+        <label for="return-date">Return Date:</label>
+        <input type="date" id="return-date" name="return-date">
+        <button>Search</button>
+      </form>
+    </section>
+    <section class="features">
+      <h2>Why FlySphere?</h2>
+      <ul>
+        <li>Low fares</li>
+        <li>Simple booking process</li>
+        <li>No hidden fees</li>
+        <li>24/7 customer support</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 FlySphere</p>
+  </footer>
 </body>
 </html>
