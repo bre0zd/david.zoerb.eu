@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FlySphere - Roblox Game</title>
+	<title>FlySphere - Realistic Flight Experience</title>
 	<style>
-		/* Add some basic styling to make the page look decent */
+		/* Modern styling */
 		body {
-			font-family: Arial, sans-serif;
-			background-color: #f0f0f0;
+			font-family: Open Sans, sans-serif;
+			background-color: #f9f9f9;
+			margin: 0;
+			padding: 0;
 		}
 		
 		.container {
-			max-width: 800px;
+			max-width: 1200px;
 			margin: 40px auto;
 			background-color: #fff;
 			padding: 20px;
@@ -24,10 +26,29 @@
 			color: #fff;
 			padding: 10px;
 			border-bottom: 1px solid #444;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
 		}
 		
 		.header h1 {
 			margin: 0;
+		}
+		
+		.nav {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+		
+		.nav li {
+			margin-right: 20px;
+		}
+		
+		.nav a {
+			color: #fff;
+			text-decoration: none;
 		}
 		
 		.game-info {
@@ -37,26 +58,79 @@
 		.game-info p {
 			margin-bottom: 10px;
 		}
+		
+		.game-features {
+			margin-top: 40px;
+		}
+		
+		.game-features h2 {
+			margin-top: 0;
+		}
+		
+		.feature {
+			background-color: #f7f7f7;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			margin-bottom: 20px;
+		}
+		
+		.feature img {
+			width: 100%;
+			height: 150px;
+			object-fit: cover;
+			border-radius: 10px 10px 0 0;
+		}
+		
+		.feature h3 {
+			margin-top: 0;
+		}
+		
+		.feature p {
+			margin-bottom: 10px;
+		}
 	</style>
 </head>
 <body>
 	<div class="container">
 		<div class="header">
 			<h1>FlySphere</h1>
+			<nav>
+				<ul class="nav">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
 		</div>
 		<div class="game-info">
-			<p>Welcome to FlySphere, the ultimate Roblox flying experience!</p>
-			<p>In this game, you'll take to the skies and explore a vast open world filled with aircraft, airports, and exciting challenges.</p>
-			<p>Whether you're a seasoned pilot or just starting out, FlySphere has something for everyone.</p>
+			<p>Welcome to FlySphere, the ultimate realistic flight experience!</p>
+			<p>Immerse yourself in the world of aviation and experience the thrill of flying like never before. Visit a real airport, watch the ground crew at work, and check in to your flight. Then, take to the skies and enjoy a comprehensive flight experience that will leave you feeling like a real pilot.</p>
+			<p>With FlySphere, you'll get to experience the entire flight process, from departure to arrival, in stunning detail. Our game is designed to provide you with the most realistic and immersive flight experience possible, so you can feel like you're really flying.</p>
 		</div>
 		<div class="game-features">
 			<h2>Game Features:</h2>
-			<ul>
-				<li>Explore a vast open world with diverse landscapes and weather conditions</li>
-				<li>Fly a variety of aircraft, from small planes to commercial jets</li>
-				<li>Complete challenges and missions to earn rewards and unlock new content</li>
-				<li>Customize your aircraft with a range of liveries and upgrades</li>
-			</ul>
+			<div class="feature">
+				<img src="https://picsum.photos/200/300" alt="Feature Image">
+				<h3>Realistic Airport Experience</h3>
+				<p>Visit a real airport and experience the sights and sounds of a bustling terminal. Watch the ground crew at work, and check in to your flight.</p>
+			</div>
+			<div class="feature">
+				<img src="https://picsum.photos/200/301" alt="Feature Image">
+				<h3>Comprehensive Flight Experience</h3>
+				<p>Take to the skies and enjoy a comprehensive flight experience that includes takeoff, cruising, and landing. Our game is designed to provide you with the most realistic and immersive flight experience possible.</p>
+			</div>
+			<div class="feature">
+				<img src="https://picsum.photos/200/302" alt="Feature Image">
+				<h3>Realistic Flight Controls</h3>
+				<p>Our game features realistic flight controls that will make you feel like you're really flying. With a range of aircraft to choose from, you'll be able to experience the thrill of flying like never before.</p>
+			</div>
+			<div class="feature">
+				<img src="https://picsum.photos/200/303" alt="Feature Image">
+				<h3>Stunning Graphics</h3>
+				<p>Our game features stunning graphics that will transport you to the world of aviation. With realistic landscapes and weather effects, you'll feel like you're really flying.</p>
+			</div>
 		</div>
 	</div>
 </body>
