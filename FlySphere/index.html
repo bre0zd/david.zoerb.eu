@@ -3,13 +3,58 @@
 <head>
   <title>FlySphere - Ultimate Flying Experience</title>
   <style>
+    /* Global Styles */
     body {
-      font-family: Open Sans, sans-serif;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f9f9f9;
     }
-  
+    
+    /* Header Styles */
+    .header {
+      background-color: #2196F3; /* Blue */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0;
+    }
+    
+    /* Navigation Styles */
+    .nav {
+      background-color: #2196F3; /* Blue */
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .nav li {
+      margin-right: 20px;
+    }
+    
+    .nav a {
+      color: #fff;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    
+    .nav a:hover {
+      color: #F7DC6F; /* Yellow */
+    }
+    
+    /* Container Styles */
     .container {
       max-width: 1200px;
       margin: 40px auto;
@@ -19,64 +64,20 @@
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
-  
-    .header {
-      background-color: #333;
-      color: #fff;
-      padding: 10px;
-      border-bottom: 1px solid #444;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    .header h1 {
-      margin: 0;
-      font-size: 24px;
-      font-weight: bold;
-    }
-  
-    .nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-    }
-  
-    .nav li {
-      margin-right: 20px;
-    }
-  
-    .nav a {
-      color: #fff;
-      text-decoration: none;
-      transition: color 0.2s ease;
-    }
-  
-    .nav a:hover {
-      color: #ccc;
-    }
-  
-    .nav a.active {
-      color: #ccc;
-    }
   </style>
 </head>
-
 <body>
-
+  <header class="header">
+    <h1 class="logo">FlySphere</h1>
+  </header>
+  <nav class="nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
   <div class="container">
-    <header class="header">
-      <nav class="nav">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <h1>FlySphere</h1>
-    </header>
     <main class="main">
       <section class="hero">
         <h2>Welcome to FlySphere</h2>
